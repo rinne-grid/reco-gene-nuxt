@@ -15,7 +15,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css'}
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css'},
     ]
   },
 
@@ -28,6 +28,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '@/assets/scss/app.scss'
   ],
 
   /*
