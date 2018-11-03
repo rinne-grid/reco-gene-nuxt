@@ -65,7 +65,14 @@ export class RecoBgm {
 export class Other {
   constructor() {
     this.sandboxMapId     = 1;
-    this.shareRecoSwitch  = false;
+    this.shareRecoSwitch  = 0;
+  }
+
+  static showShareSaveDataText() {
+    return [
+      { value: '0', text: '共有しない' },
+      { value: '1', text: '共有する' }
+    ]
   }
 }
 

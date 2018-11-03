@@ -12,10 +12,10 @@
           <window-setting />
         </b-tab>
         <b-tab title="BGMの設定">
-
+          <bgm-setting />
         </b-tab>
         <b-tab title="その他設定">
-
+          <other-setting />
         </b-tab>
       </b-tabs>
     </b-card>
@@ -24,10 +24,14 @@
 
 <script>
 import WindowSetting from '~/components/WindowSetting.vue'
+import BgmSetting from '~/components/BgmSetting.vue'
+import OtherSetting from '~/components/OtherSetting.vue'
 
 export default {
   components: {
-    WindowSetting
+    WindowSetting,
+    BgmSetting,
+    OtherSetting
   }
 }
 </script>

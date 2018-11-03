@@ -67,7 +67,7 @@
       <b-form-input id="backTitleText" v-model="recoWindow.backTitleText"></b-form-input>
     </b-form-group>
 
-    <h4>回想CG閲覧ウィンドウの設定<span class='reco-var-memo'>(rec_list_window)</span></h4>
+    <h4>回想CG閲覧ウィンドウの設定(rec_list_window)</h4>
      <!-- 1画面に表示する回想の縦の個数 -->
     <b-form-group
       horizontal
